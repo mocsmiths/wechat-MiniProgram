@@ -17,7 +17,7 @@
   <view class="cate-container">
 
     <view class="category-title">
-      <text class="name">新品上架2</text>
+      <text class="name">新品上架</text>
       <view class="line_flag"></view>
     </view>
  </view>
@@ -42,8 +42,8 @@
  <text>123</text>
  </view>
  <view class="c"><image src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/52305685/TB2WuGHvrJkpuFjy1zcXXa5FFXa_!!52305685.jpg_580x580Q90.jpg_.webp" class="goods-image" />
- <text>星空极光礼盒装222</text>
- <p>￥78330</p>
+ <text>星空极光礼盒装</text>
+ <p>￥783</p>
  </view>
  </view>
 
