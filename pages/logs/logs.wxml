@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view wx:if="id>1">大于1</view>
+<view wx:if="id>5">大于5</view>
+<view wx:if="id>6">大于6</view>
+<view wx:if="id>10">大于10</view>
+<view wx:elif="id>13">大于13</view>
+<view wx:elif="id>22">大于22</view>

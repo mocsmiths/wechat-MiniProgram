@@ -1,0 +1,54 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}"
+  class="item {{currentTab==index ? 'active' : ''}}"
+  wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+<!-- banner -->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+  
+
+  <view class="cate-container">
+
+    <view class="category-title">
+      <text class="name">新品上架</text>
+      <view class="line_flag"></view>
+    </view>
+ </view>
+
+ <!-- 滚动条测试 -->
+ <!-- 模板 -->
+ <template name="product">
+    <view> {{name}} </view>
+ 
+</template>
+<view class="goods">
+ <view class="a">
+ <image src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/TB1LQSHRVXXXXaMXXXXXXXXXXXX_!!0-item_pic.jpg_580x580Q90.jpg_.webp" 
+ class="goods-image"
+  />
+ <text>{{product1.name}}</text>
+ <p>{{product1.pic}}</p>
+ </view>
+ <view class="b">
+ <image src="https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/TB1bc2WKVXXXXXEXpXXXXXXXXXX_!!0-item_pic.jpg_580x580Q90.jpg_.webp" class="goods-image" />
+ <template is="product" ></template>
+ </view>
+ <view class="c"><image src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/52305685/TB2WuGHvrJkpuFjy1zcXXa5FFXa_!!52305685.jpg_580x580Q90.jpg_.webp" class="goods-image" />
+ <text>星空极光礼盒装</text>
+ <p>￥780</p>
+ </view>
+ </view>
+
+ <view class="foot">
+ <image mode="scaleToFill"
+ src="http://img4.imgtn.bdimg.com/it/u=1891796768,1736944855&fm=214&gp=0.jpg"></image></view>
+<view class="foot2">
+ <image mode="scaleToFill"
+ src="http://img0.imgtn.bdimg.com/it/u=3402601731,2836429425&fm=214&gp=0.jpg"></image></view>

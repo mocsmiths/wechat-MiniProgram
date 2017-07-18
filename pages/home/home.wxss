@@ -1,0 +1,100 @@
+/* pages/home/home.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  font-size:14px;
+}
+/* 顶部导航字体颜色 */
+.navbar .item.active{
+  color: #f0145a;
+}
+/* 顶部指示条属性 */
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6rpx;
+  background: #f0145a;
+}
+/* 直接设置swiper属性 */
+swiper {
+  height: 300rpx;
+}
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+/* 新品上架样式 */
+.category-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rpx;
+  margin-bottom: 0rpx;
+}
+
+.category-title .name {
+  font-size: 40rpx;
+  text-align: center;
+  margin: 10rpx auto;
+}
+/* 新品上架下划线 */
+.line_flag {
+  width: 80rpx;
+  height: 1rpx;
+  display: inline-block;
+  margin: 20rpx auto;
+  background-color: gainsboro;
+  text-align: center;
+}
+/* 测试滚动栏 */
+.goods{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+.goods view{
+  width: 33%;
+  text-align: center;
+}
+.goods image{
+  height: 200rpx;
+  width: 100%;
+}
+
+text {
+  color: #444;
+  font-size: 30rpx;
+}
+p{
+  color: red;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+.foot{
+  width: 100%;
+  height: 100%;
+  margin-top: 10rpx;
+  text-align: center;
+}
+.foot2{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
