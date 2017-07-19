@@ -39,7 +39,7 @@
  <view class="b">
  <image src="https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/TB1bc2WKVXXXXXEXpXXXXXXXXXX_!!0-item_pic.jpg_580x580Q90.jpg_.webp" class="goods-image" />
  <template is="product" ></template>
- <text>123</text>
+ <text>7.19测试</text>
  </view>
  <view class="c"><image src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/52305685/TB2WuGHvrJkpuFjy1zcXXa5FFXa_!!52305685.jpg_580x580Q90.jpg_.webp" class="goods-image" />
  <text>星空极光礼盒装</text>
