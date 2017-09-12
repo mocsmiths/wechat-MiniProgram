@@ -1,4 +1,0 @@
-/* pages/cart/cart.wxss */
-.other-button-hover{
-  opacity: 0.2;
-}

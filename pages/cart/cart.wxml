@@ -1,6 +1,0 @@
-
-<form bindsubmit="subFn"> 
-<button type="warn" plain loading="true"
-hover-class="other-button-hover"  formType="submit" >警告按钮</button>
-<input type="text" name="txtName" />
-</form>
