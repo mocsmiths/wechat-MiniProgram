@@ -7,8 +7,8 @@
  */
 
 return [
-  'app_id' => '',
-  'app_secret' => '',
+  'app_id' => 'wx410bf90c3f9b5cc7',
+  'app_secret' => 'wx410bf90c3f9b5cc7',
   'login_url'=> "https://api.weixin.qq.com/sns/jscode2session?" .
       "appid=%s&secret=%s&js_code=%s&grant_type=authorization_code",
   'access_token_url' => "https://api.weixin.qq.com/cgi-bin/token?" .
